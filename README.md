@@ -6,8 +6,23 @@ This is tool,that generate bitlink(if you enter in argument ussual link),or give
 | :------- | :------- | :------------------------------------------------------------- |
 |  `Link`  | `string` | **Required**. Your Link,that you want to cut(Look Description) |
 
+### How install it?
+
+1.Install zip file with project
+
+2.create .env file in folder with project
+
+Tree of folder must look like this:
+
+```
+.env
+requierements.txt
+main.py
+README.md
+```
+
 ### How use it?
-1.Install python
+1.Install python with all modules(check requierments.txt)
 
 2.Open cmd
 
@@ -23,4 +38,9 @@ P.S. **Link must be entered without quotation marks**
 
 **Output:** https://bit.ly/...
 
-**P.S. Create .env file in folder with script with your token** 
+### How create .env?
+Create file and name it `.env`(it is name with file extension)
+
+Open it in text redactor an write that:
+
+`BITLY_TOKEN = TOKEN(Without quotation marks) `
