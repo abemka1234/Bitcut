@@ -33,7 +33,7 @@ def count_clicks(token, bitlink):
 
 if __name__ == '__main__':	
 	parser = argparse.ArgumentParser(description='Link to Bitlink,Or get number of clicks on your bitlink')
-	parser.add_argument('Link', type=str, help='Link,that will changed or you will get number of clicks')
+	parser.add_argument('Link', help='Link,that will changed or you will get number of clicks')
 	args = parser.parse_args()
 	link=args.Link
 	print(link)
