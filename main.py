@@ -14,11 +14,12 @@ def is_bitlink(token, link):
 
 
 def shorten_link(token, link):
-	link= {"long_url": link}
+	link = {"long_url": link}
 	payload = {"Authorization": f"Bearer {token}"}
 	response = requests.post("https://api-ssl.bitly.com/v4/bitlinks", json=link, headers=payload)
 	response.raise_for_status()
 	return response.json()["link"]
+
 
 def count_clicks(token, bitlink):
 	payload = {"Authorization": f"Bearer {token}"}
@@ -32,7 +33,7 @@ def count_clicks(token, bitlink):
 
 if __name__ == '__main__':	
 	parser = argparse.ArgumentParser(description='Link to Bitlink,Or get number of clicks on your bitlink')
-	parser.add_argument('Link',type=str, help='Link,that will changed or you will get number of clicks')
+	parser.add_argument('Link', type=str, help='Link,that will changed or you will get number of clicks')
 	args = parser.parse_args()
 	link=args.Link
 	print(link)
