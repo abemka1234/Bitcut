@@ -22,7 +22,7 @@ README.md
 ```
 
 ### How use it?
-1.Install python with all modules(check requierments.txt)
+1.Install python with all modules(check"How install requierements.txt")
 
 2.Open cmd
 
@@ -31,6 +31,13 @@ README.md
 4.Enter command (Python main.py link)
 
 P.S. **Link must be entered without quotation marks**
+
+### How install requierements.txt?
+1.Open cmd
+
+2.Open directory with Bitcut(Cd...)
+
+3.Enter command (python -m pip install -r requirements.txt)
 
 ### Example of work
 
