@@ -43,4 +43,4 @@ Create file and name it `.env`(it is name with file extension)
 
 Open it in text redactor an write that:
 
-`BITLY_TOKEN = TOKEN(Without quotation marks) `
+`BITLY_TOKEN=TOKEN(Without quotation marks) `
