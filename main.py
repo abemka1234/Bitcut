@@ -4,7 +4,7 @@ import os
 from dotenv import load_dotenv
 import argparse
 
-aaaaaaaaaa
+
 def is_bitlink(token, link):
 	payload = {"Authorization": f"Bearer {token}"}
 	bitlink_parts = urlparse(link)
