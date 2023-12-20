@@ -21,14 +21,19 @@ main.py
 README.md
 ```
 
+3.Open cmd
+
+4. Open location with project
+
+5. Enter command ```pip install -r requirements.txt.```
+ 
 ### How use it?
-1.Install python with all modules(check requierments.txt)
 
-2.Open cmd
+1.Open cmd
 
-3.Open directory with Bitcut(Cd...)
+2.Open directory with Bitcut(Cd...)
 
-4.Enter command ```Python main.py link```
+3.Enter command ```Python main.py link```
 
 P.S. **Link must be entered without quotation marks**
 
