@@ -28,15 +28,15 @@ README.md
 
 3.Open directory with Bitcut(Cd...)
 
-4.Enter command (Python main.py link)
+4.Enter command ```Python main.py link```
 
 P.S. **Link must be entered without quotation marks**
 
 ### Example of work
 
-**Input:** Python main.py https://...
+**Input:** ```Python main.py https://...```
 
-**Output:** https://bit.ly/...
+**Output:** ```https://bit.ly/...```
 
 ### How create .env?
 Create file and name it `.env`(it is name with file extension)
