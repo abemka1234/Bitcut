@@ -35,7 +35,7 @@ if __name__ == '__main__':
 	parser = argparse.ArgumentParser(description='Link to Bitlink,Or get number of clicks on your bitlink')
 	parser.add_argument('link', help='link,that will changed or you will get number of clicks')
 	args = parser.parse_args()
-	link=args.Link
+	link = args.Link
 	load_dotenv()
 	token = os.environ['BITLY_TOKEN']
 	if is_bitlink(token,link):
